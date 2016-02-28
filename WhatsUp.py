@@ -7,6 +7,21 @@ from collections import defaultdict
 from bs4 import BeautifulSoup
 from argparse import ArgumentParser
 
+#Thanks to *shikantaza* on IRC
+################################################################ 
+#             _   _                   _                        #
+#            | \ | |                 | |                       #
+#            |  \| | __ _ _ __   __ _| |_ __ ___               #
+#            | . ` |/ _` | '_ \ / _` | | '_ ` _ \              #
+#            | |\  | (_| | |_) | (_| | | | | | | |             #
+#            \_| \_/\__,_| .__/ \__,_|_|_| |_| |_|             #
+#                        | |                                   #
+#                        |_|                                   #
+#                                                              #
+# ############################################################ #
+#              ©2016 Napalm - All Rights Reserved              #
+################################################################ 
+
 #Calls and creates ArgumentParser for -u & --url
 parser = ArgumentParser()
 parser.add_argument("-u", "--url", dest="url", help="URL to scan", metavar="url")
